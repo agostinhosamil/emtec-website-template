@@ -1,12 +1,6 @@
 import { ThemeProvider } from 'styled-components'
-
 import { ThemeContainer, ThemeGlobalStyle } from '@styles'
-
-const theme = {
-	background: {
-		primary: 'red'
-	}
-}
+import { theme } from '@config'
 
 export default function App ({ Component, pageProps }) {
   return (

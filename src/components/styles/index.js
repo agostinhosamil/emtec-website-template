@@ -13,10 +13,16 @@ export const ThemeGlobalStyle = createGlobalStyle`
 	* {
 		box-sizing: border-box;
 	}
+
+	img {
+		pointer-events: none;
+		border: 0px none transparent;
+		outline: none;
+	}
 `
 
 export const ThemeContainer = styled.div`
 	width: 100%;
 	height: auto;
-	background-color: ${ props => props.theme.background.primary };
+	background-color: ${ props => props.theme.colors.primary };
 `
