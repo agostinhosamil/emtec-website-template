@@ -7,6 +7,7 @@ export const Header = () => {
 
   return (
     <HeaderContainer>
+      { process.env.API_URL }
       <div id="header-wrapper">
         <div id="header" className="container">
     
