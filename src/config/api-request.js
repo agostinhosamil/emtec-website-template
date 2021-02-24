@@ -16,6 +16,7 @@ export class request {
   	  const response = await axios.get(process.env.API_URL + url)
   	  return response.data
   	} catch (err) {
+  		// console.log ('I found Error..!', err, '\n\n\n\nEND\n\n\n')
   	  return null
   	}
   }
